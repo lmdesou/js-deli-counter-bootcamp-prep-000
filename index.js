@@ -22,7 +22,7 @@ function currentLine(line) { //line = [] ; line.length //=> 0
       } else {
     for (let i = 0; i < line.length; i++) { // 0 < 0 //=> false
       newLine.join(`${line.indexOf(line[i+1])}. ${line[i]},`)
-      return newLine.concat(line);
+      return newLine;
         }
     }
   }
