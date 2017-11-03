@@ -23,6 +23,6 @@ function currentLine(line) { //line = [] ; line.length //=> 0
     for (let i = 0; i < line.length; i++) { // 0 < 0 //=> false
        newLine.push(`${line.indexOf(line[i+1])}. ${line[i]},`)
         }
-        return 
+        return newLine.join()
     }
   }
